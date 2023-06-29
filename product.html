@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang = en>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="productcard.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav">
+            <img src="tta.png" class="brand-logo" alt="">
+            <div class="nav-items">
+                <div class="search">
+                    <input type="text" class="search-box" placeholder="search brand, product">
+                    <button class="search-btn">
+
+                    </button>
+                </div>
+                <a href="#"><img src="C:\Users\sidha\OneDrive\Desktop\E Commerce Wesbite\Images\user.png" alt=""></a>
+                <a href="#"><img src="C:\Users\sidha\OneDrive\Desktop\E Commerce Wesbite\Images\cart.png" alt=""></a>
+            </div>
+        </div>
+        <ul class="links-container">
+            <li class="link-item"><a href="index.html" class="link">Home</li>
+                <li class="link-item"><a href="product.html" class="link">Products</li>
+                    <li class="link-item"><a href="#" class="link">About us</li>
+                        <li class="link-item"><a href="#" class="link">Volunteer</li>
+                            <li class="link-item"><a href="#" class="link">Donate</li>
+        </ul>
+    </nav>
+
+    <section class="product-details">
+        <div class="details">
+            <img src="data:image/jpeg;base64,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" class="product-image" alt="">
+            <h2 class="product-brand">Macbook</h2>
+            <p class="product-short-des">The most demanded computer made by apple.</p>
+            <span class="product-price">$10</span>
+            <h2 class="product-brand">Join our Priority List.</h2>
+            <form id="sbmt-form" class="sbmt-form">
+            <input type="name" id="name" placeholder="name" class="input" required><br><br>
+            <input type="email" id="email" placeholder="email" class="input" required><br><br>
+            <input type="phone" id="phone" placeholder="phone number" class="input" required><br><br>
+            <input type="text" id="computer" placeholder="computer model" class="input" required><br><br>
+            <button type="submit" id="submit" class="submit">Submit</button>
+        </form>
+        <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+      <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+    <script src="database.js"></script>
+</div>
+    </section>
+
+    <section class="detail-des">
+        <h2 class="heading">description</h2>
+        <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A fuga cupiditate quas tempora sunt? Nam dignissimos animi repellat corporis officia excepturi explicabo consequuntur! Totam distinctio eum sequi, voluptates nesciunt vero!</p>
+    </section>
+
+    <footer>
+            <p class="footer-title">about Nonprofit Computing Services</p>
+            <p class="info">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio porro corporis modi? Dolorum officiis, maiores, minus, beatae nam eius cum enim quod at quasi aperiam officia quia eaque placeat repudiandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum fuga eveniet rerum aperiam voluptatibus earum, quia natus illo repudiandae vero sequi aspernatur molestiae dolor quos perspiciatis tenetur! Delectus, error quae! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae quas amet vel tempore animi sed dolor aliquid quae soluta laborum ab quis, nam veritatis perspiciatis voluptate in a recusandae optio.</p>
+            <p class="info">support email - example@outlook.com</p> 
+            <p class="info">telephone 1234567890, 0987654321</p> 
+            <div class="footer-social-container">
+                <div>
+                    <a href="#" class="social-link">terms & services</a>
+                    <a href="#" class="social-link">privacy page</a>
+                </div>
+                <div>
+                    <a href="#" class="social-link">instagram</a>
+                    <a href="#" class="social-link">facebook</a>
+                    <a href="#" class="social-link">twitter</a>
+                </div>
+            </div>
+        <p class="footer-credit">Making tech accesible to the world.</p>
+    </footer>
+    <script src="js/nav.js" ></script>
+    <script src="js/footer.js"></script>
+    <script src="js/home.js"></script>
+    <script src="js/product.js"></script> 
+
+</body>
+</html>
